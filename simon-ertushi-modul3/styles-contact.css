@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-color: #E6E6EF;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 35px;
+    border-bottom: 1px solid black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.the-navbar {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cta-book {
+    background-color: #36AD11;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 20px 60px;
+}
+
+.contact h1 {
+    margin: 0;
+    font-size: 35px;
+    font-style: italic;
+    color: black;
+}
+
+.phone {
+    margin: 10px 0 55px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: #383838;
+}
+
+.contact h2 {
+    margin: 0 0 15px;
+    font-size: 25px;
+    font-style: italic;
+    color: #383838;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    background-color: #E9F3AA;
+    padding: 25px 45px;
+    border-radius: 10px;
+}
+
+form h3 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 20px;
+}
+
+form label {
+    margin: 0 0 5px 5px;
+    font-weight: bold;
+}
+
+form input {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+form textarea {
+    height: 65px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+form button {
+    align-self: center;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px 35px;
+    border-top: 1px solid black;
+}
+
+footer .logo {
+    width: 110px;
+    height: 85px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.footer-nav1,
+.footer-nav2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copyright {
+    grid-column: 1 / 4;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
